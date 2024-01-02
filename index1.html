@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label id="name-label">Name</label><br>
+ <input id="name" type="text" placeholder="Enter your name" required><br>
+ <label id="email-label">Email</label><br>
+ <input id="email" type="email" placeholder="Enter your email" required><br>
+  <label id="number-label">Age</label><br>
+ <input id="number" type="number" min="10" max="99" placeholder="Age"><br>
+ <label>Which option best describes yours current role?</label><br>
+ <select  id="dropdown">
+   <option disabled selected value>select current role</option>
+   <option>student</option>
+   <option>full time job</option>
+   <option>full time learner</option>
+   </select>
+
+   <label class="input-radio">Would you recommend freeCodeCamp to a friend?</label><br>
+ <input type="radio" value="definate" name="radiobutton"></
+ <label>definately</lable><br>
+ <input type="radio" value="mayb" name="radiobutton">
+<label>maybe</label><br>
+<label class="input-checkbox">What would you like to see improved?</label><br>
+<input type="checkbox" value="fe">
+<label>Front-end projects</label><br>
+<input type="checkbox" value="be">
+<label>Back-end projects</label><br>
+<input type="checkbox" value="db">
+<label>DataBase</label><br>
+<label>Any comments or suggestions?</label><br>
+<textarea type="text" id="comments" placeholder="Enter your comment here..."></textarea><br>
+<button type="submit" id="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
